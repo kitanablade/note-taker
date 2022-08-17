@@ -16,9 +16,9 @@ app.use(express.urlencoded({ extended: true }));
 // const allRoutes = require("./controllers")
 // app.use(allRoutes);
 
-app.get("/js/index.js", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/assets/js/index.js"));
-});
+// app.get("/js/index.js", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./public/assets/js/index.js"));
+// });
 
 
 app.get("/", (req, res) => {
